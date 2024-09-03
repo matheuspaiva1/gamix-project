@@ -8,14 +8,12 @@ import { RiNotification2Line } from "react-icons/ri";
 
 export default function Header() {
   return (
-    <header>
-      <SearchBar/>
-      <RiNotification2Line className='text-zinc-50'/>
+    <header className="m-4 flex gap-96 items-center justify-center">
+      <SearchBar />
 
-      
-
-      <div className="">
-        <Image src="perfil.svg" alt="perfil" width={100} height={100}/>
+      <div className="flex items-center justify-center gap-8 ml-96">
+        <RiNotification2Line className='text-zinc-50'/>
+        <Image src="perfil.svg" alt="perfil" width={50} height={50}/>
       </div>
     </header>
   )
