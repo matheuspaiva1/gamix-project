@@ -3,30 +3,30 @@ import React from 'react'
 
 export default function TrendCards() {
   return (
-    <div>
-      <h1 className="">Em Alta</h1>
-      <div className="">
-        <div className="">
-          <Image src="" alt="assasin" width={300} height={300} className=''/>      
-          <h1 className="">League of Legends</h1>
-          <p>867.433 jogadores</p>
-          <p>Gratuito</p>
+    <div className="w-[25em] my-4  ">
+      <h1 className="text-zinc-50 text-sm">Em Alta</h1>
+      <div className="text-zinc-50 rounded-md">
+        <div className="flex items-center my-2 p-3 bg-black bg-opacity-80 rounded-xl">
+          <Image src="/lol.jpg" alt="assasin" width={70} height={70} className=' rounded-lg'/>      
+          <div className="mx-4">
+            <h1 className="font-bold text-xl mb-4">League of Legends</h1>
+            <p className="text-xs mb-4">867.433 jogadores</p>
+            <p className="text-sm font-bold">Gratuito</p>
+          </div>
         </div>
 
-        <div className="">
-          <Image src="" alt="assasin" width={300} height={300} className=''/>      
-          <h1 className="">Dota</h1>
-          <p>777.488 jogadores</p>
-          <p>Gratuito</p>
+        <div className="flex items-center my-2 p-3 bg-black bg-opacity-80 rounded-xl">
+          <Image src="/dota.jpg" alt="assasin" width={70} height={70} className=' rounded-lg'/>      
+          <div className="mx-4">
+            <h1 className="font-bold text-xl mb-4">Dota 2</h1>
+            <p className="text-xs mb-4">867.433 jogadores</p>
+            <p className="text-sm font-bold">Gratuito</p>
+          </div>
         </div>
 
-        <div className="">
-          <Image src="" alt="assasin" width={300} height={300} className=''/>      
-          <h1 className="">Resident Evil 0</h1>
-          <p>999.125 jogadores</p>
-          <p>R$ 129,90</p>
-        </div>
+        
 
+        
       </div>
     </div>
   )

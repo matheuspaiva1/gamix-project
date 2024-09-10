@@ -6,7 +6,7 @@ import TrendCards from '../Cards/trendCards'
 
 export default function BgMain() {
   return (
-    <div>
+    <div className='mt-10 mx-8'>
       <TitleCard/>
       <TrendCards/>
       
