@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
+import { BiLibrary } from 'react-icons/bi';
+import { CiHeart } from "react-icons/ci";
 
 export default function TrendCards() {
   return (
@@ -11,7 +13,12 @@ export default function TrendCards() {
           <div className="mx-4">
             <h1 className="font-bold text-xl mb-4">League of Legends</h1>
             <p className="text-xs mb-4">867.433 jogadores</p>
-            <p className="text-sm font-bold">Gratuito</p>
+            <div className="flex items-center gap-48">
+              <p className="text-sm font-bold">Gratuito</p>
+              <button>
+                <BiLibrary className=" border border-zinc-600 hover:border-none hover:bg-fuchsia-900 rounded-full text-2xl p-1"/>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -20,7 +27,14 @@ export default function TrendCards() {
           <div className="mx-4">
             <h1 className="font-bold text-xl mb-4">Dota 2</h1>
             <p className="text-xs mb-4">867.433 jogadores</p>
-            <p className="text-sm font-bold">Gratuito</p>
+            <div className="flex items-center gap-48">
+              <p className="text-sm font-bold">Gratuito</p>
+              <button>
+                <BiLibrary className=" border border-zinc-600 hover:border-none hover:bg-fuchsia-900 rounded-full text-2xl p-1"/>
+              </button>
+
+            </div>
+            
           </div>
         </div>
 
