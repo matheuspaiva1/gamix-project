@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import { BiLibrary } from 'react-icons/bi';
-import { CiHeart } from "react-icons/ci";
 
 export default function TrendCards() {
   return (
