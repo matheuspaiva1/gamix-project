@@ -11,7 +11,7 @@ export default function PageLibrary() {
         <NavBar/>
         <div className="m-8">
           <SearchBar/>
-          <h1 className='my-20 font-bold text-2xl text-zinc-50'>Esses são todos os jogos encontrados:</h1>
+          <h1 className='my-8 font-bold text-2xl text-zinc-50'>Todos os jogos encontrados:</h1>
           <CardTrend/>
         </div>
         <section className="ml-[35em]">

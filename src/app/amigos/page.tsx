@@ -11,7 +11,7 @@ export default function PageFriends() {
         <NavBar/>
         <div className="m-8">
           <SearchBar/>
-          <h1 className='my-8 font-bold text-2xl text-zinc-50'>Solicitações</h1>
+          <h1 className='my-8 font-bold text-2xl text-zinc-50'>Resultados encontrados:</h1>
 
           <div className="">
             <CardFriends/>
